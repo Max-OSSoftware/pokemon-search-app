@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ffcb05; /* Pokémon yellow */
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ff0000; /* Pokémon red */
+    margin-bottom: 20px;
+}
+
+input#search-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    border: 2px solid #3b4cca; /* Pokémon blue */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button#search-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #3b4cca; /* Pokémon blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button#search-button:hover {
+    background-color: #354a9f; /* Darker blue */
+}
+
+#pokemon-info {
+    margin-top: 20px;
+}
+
+#pokemon-info > p, #pokemon-info > h2, #stats > p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 5px;
+    border: 2px solid #ffcb05; /* Pokémon yellow */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#types div {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #78c850; /* Pokémon green */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+img#sprite {
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #3b4cca; /* Pokémon blue */
+    border-radius: 10px;
+}
