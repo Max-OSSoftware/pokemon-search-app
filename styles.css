@@ -57,6 +57,7 @@ button#search-button:hover {
     border: 2px solid #ffcb05; /* Pokémon yellow */
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-style: italic;
 }
 
 #types div {
