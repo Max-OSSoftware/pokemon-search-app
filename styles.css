@@ -77,4 +77,5 @@ img#sprite {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     border: 2px solid #3b4cca; /* Pokémon blue */
     border-radius: 10px;
+    padding: 5px;
 }
