@@ -25,9 +25,6 @@ async function fetchPokemonData(nameOrId) {
 }
 
 function displayPokemonData(data) {
-    const spriteElement = document.getElementById('sprite');
-    spriteElement.src = data.sprites.front_default;
-    spriteElement.style.display = 'block';
     document.getElementById('pokemon-name').textContent = data.name.toUpperCase();
     document.getElementById('pokemon-id').textContent = `#${data.id}`;
     document.getElementById('weight').textContent = `Weight: ${data.weight}`;
@@ -39,6 +36,18 @@ function displayPokemonData(data) {
     document.getElementById('special-defense').textContent = data.stats[4].base_stat;
     document.getElementById('speed').textContent = data.stats[5].base_stat;
 
-   
+    const typesElement = document.getElementById('types');
+    typesElement.innerHTML = ''; // Clear any existing types
 
+    // Iterate over each type and create a new div element for it
+    data.types.forEach(typeInfo => {
+        const typeElement = document.createElement('div');
+        typeElement.textContent = typeInfo.type.name.toUpperCase();
+        typesElement.appendChild(typeElement);
+    });
+
+    const spriteElement = document.getElementById('sprite');
+    spriteElement.src = data.sprites.front_default;
+    spriteElement.style.display = 'block'; // Display the sprite image
 }
+
