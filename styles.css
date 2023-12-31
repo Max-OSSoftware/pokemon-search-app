@@ -70,7 +70,7 @@ button#search-button:hover {
 }
 
 img#sprite {
-    max-width: 120px; /* Adjust as needed */
+    max-width: 200px; /* Adjust as needed */
     height: auto;
     margin: 10px auto;
     display: block; /* To center the image */
