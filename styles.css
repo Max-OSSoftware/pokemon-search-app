@@ -34,7 +34,7 @@ input#search-input {
 
 button#search-button {
     padding: 10px 20px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     background-color: #3b4cca; /* Pokémon blue */
     color: white;
     border: none;
