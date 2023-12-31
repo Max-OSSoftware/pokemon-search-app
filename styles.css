@@ -47,7 +47,7 @@ button#search-button:hover {
 }
 
 #pokemon-info {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #pokemon-info > p, #pokemon-info > h2, #stats > p {
