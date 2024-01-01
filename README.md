@@ -4,7 +4,6 @@ This Pokémon Search App is a web application designed to provide Pokémon enthu
 
 
      How to Use
-
     Start the App: just open the index.html file in a web browser.
     Type the name or ID number of the Pokémon in the 'search-input' field. 
     Click on the 'search-button' to fetch the Pokémon data from freecodecamp.
